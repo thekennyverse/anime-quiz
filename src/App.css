@@ -19,8 +19,8 @@ body{
     display: flex;
     overflow-x: auto;
     white-space: nowrap;
-    justify-content: center; /* Center the items horizontally */
-    align-items: center; /* Center the items vertically */
+    justify-content: center; 
+    align-items: center; 
   }
   
   /* horizontal scroll */
