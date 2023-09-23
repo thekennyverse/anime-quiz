@@ -10,14 +10,10 @@ const AudioPlayer = () => {
       <audio 
         controls
         autoPlay={isPlaying}
+        src="/asset/narutoSoundTrack.mp3"
         onPlay={() => setIsPlaying(true)}
         onPause={() => setIsPlaying(false)}  
-      >
-        <source 
-          src="/Users/kennyverse/Digitalcraft/Digital craft React Project/react-quiz/anime-quiz/public/asset/Naruto - I Said Im Naruto .mp3"
-          type="audio/mp3" 
-        />
-      </audio>
+       />
     </div>
   );
 

@@ -12,7 +12,6 @@
   
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^latest",
     "react-scripts": "5.0.1"
     
   },

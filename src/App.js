@@ -7,6 +7,7 @@ import  QuizForm   from   './component/quizform.js';
 
 
 
+
 const App = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const App = () => {
       <CharacterScroller />
       <AudioPlayer />
       <QuizForm />
+      
       
     </div>
   );

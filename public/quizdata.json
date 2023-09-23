@@ -1,0 +1,971 @@
+{
+    "quizzes": [
+      {
+        "quiz_id": 1,
+        "quiz_name": "Naruto Quiz",
+        "questions": [
+          {
+            "question_id": 1,
+            "question": "Who is Naruto's best friend?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Sasuke",
+                "is_correct": true
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Shikamaru",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Sakura",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Hinata",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Kakashi",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 2,
+            "question": "What is Naruto's favorite food?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Ramen",
+                "is_correct": true
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Chicken",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Hotdogs",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Sushi",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Pizza",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 3,
+            "question": "Who is known as the Copy Ninja?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Kakashi",
+                "is_correct": true
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Minato",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Guy",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Jiraiya",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Itachi",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 4,
+            "question": "Who is Sasuke's brother?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Itachi",
+                "is_correct": true
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Shikamaru",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Sakura",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Hinata",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Kakashi",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 5,
+            "question": "Who is Naruto's father?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Minato",
+                "is_correct": true
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Kakashi",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Guy",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Jiraiya",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Itachi",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "quiz_id": 2,
+        "quiz_name": "Scott Pilgrim Quiz",
+        "questions": [
+          {
+            "question_id": 1,
+            "question": "What is the name of the band Scott Pilgrim plays bass for?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Sex Bob-Omb",
+                "is_correct": true
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "The Clash at Demonhead",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Crash and the Boys",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "The Katayanagi Twins",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Sonic and Knuckles",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 2,
+            "question": "What does Scott Pilgrim order at the restaurant 'The Happy Avocado'?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Pasta",
+                "is_correct": true
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Burger",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Pizza",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Sushi",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Tacos",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 3,
+            "question": "Who is Ramona Flowers' first evil ex?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Lucas Lee",
+                "is_correct": false
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Matthew Patel",
+                "is_correct": true
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Todd Ingram",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Roxie Richter",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Gideon Graves",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 4,
+            "question": "What does Scott Pilgrim receive as a '1-up' after defeating Todd Ingram?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Extra life",
+                "is_correct": true
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "A new guitar",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "A free meal",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Superpowers",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "A fancy hat",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 5,
+            "question": "Which character is known for their psychic powers and veganism?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Kim Pine",
+                "is_correct": false
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Envy Adams",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Knives Chau",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Todd Ingram",
+                "is_correct": true
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Scott Pilgrim",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "quiz_id": 3,
+        "quiz_name": "Death Note Quiz",
+        "questions": [
+          {
+            "question_id": 1,
+            "question": "Who is the original owner of the Death Note?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Light Yagami",
+                "is_correct": false
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "L Lawliet",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Misa Amane",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Ryuk",
+                "is_correct": true
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Rem",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 2,
+            "question": "What is the main objective of Light Yagami when he acquires the Death Note?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "To become a famous detective",
+                "is_correct": false
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "To become a world-renowned musician",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "To rid the world of criminals",
+                "is_correct": true
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "To bring back his deceased family members",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "To become a god",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 3,
+            "question": "Who is L's successor in the pursuit of Kira after L's death?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Near",
+                "is_correct": true
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Mello",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Teru Mikami",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Rem",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Light Yagami Jr.",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 4,
+            "question": "What is the condition for someone to die when their name is written in the Death Note?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "The cause of death must be specified",
+                "is_correct": true
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "They must be a criminal",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "They must be photographed",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "A blood sacrifice is required",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "They must have a middle name",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 5,
+            "question": "How does Light Yagami ultimately meet his demise in Death Note?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "He is killed by Ryuk",
+                "is_correct": false
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "He is executed for his crimes",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "He dies in a car accident",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "He dies of a heart attack",
+                "is_correct": true
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "He escapes to another dimension",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "quiz_id": 4,
+        "quiz_name": "One Punch Man Quiz",
+        "questions": [
+          {
+            "question_id": 1,
+            "question": "What is the superhero name of the protagonist, Saitama?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Silver Fang",
+                "is_correct": false
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Speed-o'-Sound Sonic",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Genos",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "One Punch Man",
+                "is_correct": true
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Blast",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 2,
+            "question": "Saitama's power allows him to defeat any opponent with a single punch. What is his main complaint about this power?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "It's too weak",
+                "is_correct": false
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "It's boring",
+                "is_correct": true
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "It drains his energy",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "It's difficult to control",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "It's too powerful",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 3,
+            "question": "Who is the Class S hero known for his obsession with justice and a distinctive half-robotic appearance?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Mumen Rider",
+                "is_correct": false
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Atomic Samurai",
+                "is_correct": true
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Genos",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Metal Knight",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Tanktop Master",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 4,
+            "question": "Which organization serves as the primary antagonistic force in One Punch Man, seeking to create powerful monsters to challenge heroes?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Hero Association",
+                "is_correct": false
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Justice Alliance",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Monster Association",
+                "is_correct": true
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "The Heroic Legion",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Villain League",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 5,
+            "question": "What is the name of Saitama's cyborg disciple who seeks revenge against the cyborg that destroyed his town?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Sonic",
+                "is_correct": false
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Mumen Rider",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Genos",
+                "is_correct": true
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Boros",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Metal Bat",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "quiz_id": 5,
+        "quiz_name": "Power Rangers Quiz",
+        "questions": [
+          {
+            "question_id": 1,
+            "question": "Which color of Power Ranger is typically associated with the leadership role in most Power Rangers series?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Red",
+                "is_correct": true
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Blue",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Pink",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Yellow",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Green",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 2,
+            "question": "In the original Mighty Morphin Power Rangers series, what is the name of the main villain who serves as their primary adversary?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Lord Zedd",
+                "is_correct": false
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Rita Repulsa",
+                "is_correct": true
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Ivan Ooze",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Goldar",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Master Vile",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 3,
+            "question": "Which Power Rangers series introduced the concept of 'Zords' – giant robots that the Rangers could pilot?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Power Rangers: Ninja Storm",
+                "is_correct": false
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Power Rangers: Dino Thunder",
+                "is_correct": true
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Power Rangers: Samurai",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Power Rangers: Time Force",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Power Rangers: Megaforce",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 4,
+            "question": "What is the name of the mentor and wise sage who provides guidance to the Power Rangers in many series?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Alpha 5",
+                "is_correct": false
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Zordon",
+                "is_correct": true
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Saba",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Rita Repulsa",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Zara",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 5,
+            "question": "In Power Rangers SPD, what is the primary mission of the Power Rangers?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "To defend the Earth from space invaders",
+                "is_correct": true
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "To protect the environment",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "To become the most powerful Rangers",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "To uncover ancient artifacts",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "To find lost treasure",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "quiz_id": 6,
+        "quiz_name": "Jujutsu Kaisen Quiz",
+        "questions": [
+          {
+            "question_id": 1,
+            "question": "Who is the protagonist of Jujutsu Kaisen?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Megumi Fushiguro",
+                "is_correct": false
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Nobara Kugisaki",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Satoru Gojo",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Yuji Itadori",
+                "is_correct": true
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Yuta Okkotsu",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 2,
+            "question": "What is the name of the cursed object that houses Sukuna's fingers in Jujutsu Kaisen?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Cursed Dolls",
+                "is_correct": false
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Cursed Weapons",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Cursed Tomes",
+                "is_correct": true
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Cursed Masks",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Cursed Rings",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 3,
+            "question": "What is the special ability of Megumi Fushiguro's Shikigami, Nue?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Invisibility",
+                "is_correct": false
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Teleportation",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Explosion",
+                "is_correct": true
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Shape-shifting",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Mind control",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 4,
+            "question": "What is the main goal of the Jujutsu Sorcerer organization in Jujutsu Kaisen?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "To collect cursed items",
+                "is_correct": false
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "To eradicate curses",
+                "is_correct": true
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "To summon demons",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "To study cursed energy",
+                "is_correct": false
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "To become rich",
+                "is_correct": false
+              }
+            ]
+          },
+          {
+            "question_id": 5,
+            "question": "Who is the principal of Tokyo Jujutsu High in Jujutsu Kaisen?",
+            "answers": [
+              {
+                "answer_id": 1,
+                "answer_text": "Satoru Gojo",
+                "is_correct": false
+              },
+              {
+                "answer_id": 2,
+                "answer_text": "Yuji Itadori",
+                "is_correct": false
+              },
+              {
+                "answer_id": 3,
+                "answer_text": "Maki Zenin",
+                "is_correct": false
+              },
+              {
+                "answer_id": 4,
+                "answer_text": "Masamichi Yaga",
+                "is_correct": true
+              },
+              {
+                "answer_id": 5,
+                "answer_text": "Toge Inumaki",
+                "is_correct": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
