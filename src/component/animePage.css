@@ -1,11 +1,3 @@
-body{
-    background-image: url("/public/images/team-minato-and-kakashi-wsac3k91uzt7fp3t.webp");
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-    padding: 0;
-
-}
 
 .scroller-item img{
 
@@ -28,6 +20,16 @@ body{
     flex-shrink: 0;
     margin-right: 10px;
     cursor: pointer;
+  }
+
+  .quiz-text {
+    color: red;
+  }
+
+  .answers {
+    display:flex;
+    flex-direction: column;
+
   }
   
   #character-info {
