@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import './animePage.css'; // css to my back ground
 
+/**
+ * The QuizForm component is a form that allows users to input their responses to 10 quiz questions.
+ */
+
 const QuizForm = ({sharedQuiz}) => {
     const [responses, setResponses] = useState({
       q1: '',
@@ -74,7 +78,7 @@ const QuizForm = ({sharedQuiz}) => {
 
   return (
     <div className="quiz-container quiz-text">
-      <h1>Naruto Quiz</h1>
+      <h1> Anime Quiz</h1>
       <form id="quiz-form" onSubmit={handleSubmit}>
         {formatQuiz()}
 
@@ -86,6 +90,4 @@ const QuizForm = ({sharedQuiz}) => {
 };
 
 export default QuizForm;
-
-
 

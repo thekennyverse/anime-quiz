@@ -11,23 +11,7 @@ const CharacterScroller = ({setSharedQuiz}) => {
     setQuizId(quizId)
   };
 
-  // useEffect(async () => {
-  //   // Fetch quiz data when a character is selected
-  //   if (selectedCharacter) {
-  //     // Construct the URL to the quizdata.json file in the public folder
-  //     // const jsonFileURL = '/quizdata.json'; 
-  //     // const data = await fetch(jsonFileURL);
-  //     // console.log(JSON.stringify(data, null, 4));
-  //     // fetch(jsonFileURL)
-  //     //   .then((response) => response.json())
-  //     //   .then((data) => {
-  //     //     setQuizData(data); // Set the fetched quiz data in state
-  //     //   })
-  //     //   .catch((error) => {
-  //     //     console.error('Error fetching quiz data:', error);
-  //     //   });
-  //   }
-  // }, [selectedCharacter]);
+  
   
   const fetchData = async () => {
     const jsonFileURL = './quizdata.json'; 
@@ -50,52 +34,15 @@ const CharacterScroller = ({setSharedQuiz}) => {
   }
 
   useEffect(() => {
-    const url = '/images/team-minato-and-kakashi-wsac3k91uzt7fp3t.webp'
+    const url = '/images/Quizbackground.png'
     saveStyles(url);
-    // Fetch quiz data when a character is selected
     if (selectedCharacter) {
-      // Construct the URL to the quizdata.json file in the public folder
+      
       fetchData();
-      // fetch(jsonFileURL)
-      //   .then((response) => response.json())
-      //   .then((data) => {
-      //     setQuizData(data); // Set the fetched quiz data in state
-      //   })
-      //   .catch((error) => {
-      //     console.error('Error fetching quiz data:', error);
-      //   });
+    
     }
   }, [selectedCharacter]);
-  // const renderQuiz = () => {
-  //   // Check if quizData is available
-  //   console.log(quizData)
-  //   if (quizData) {
-  //     // Find the selected quiz data from the fetched quizData
-  //     const selectedQuiz = quizData
-
-  //     if (selectedQuiz) {
-  //       return (
-  //         <div className="quiz">
-  //           <h2>{selectedQuiz.quiz_name} Quiz</h2>
-  //           {selectedQuiz.questions.map((question) => (
-  //             <div key={question.question_id}>
-  //               <p>{question.question}</p>
-  //               <ul>
-  //                 {question.answers.map((answer) => (
-  //                   <li key={answer.answer_id}>{answer.answer_text}</li>
-  //                 ))}
-  //               </ul>
-  //             </div>
-  //           ))}
-  //         </div>
-  //       );
-  //     }
-  //   }
-
-  //   // Render a default message if no character is selected or if the data is not available
-  //   return <p></p>;
-  // };
-
+  
 
   return (
     <div className="scroller">
