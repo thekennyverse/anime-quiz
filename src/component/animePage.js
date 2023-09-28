@@ -4,6 +4,7 @@ import './animePage.css'; // css to my back ground
 import CharacterScroller from './characterscroller';
 import AudioPlayer from  './audio.js';
 import QuizForm   from   './quizform.js';
+ 
 
 const AnimePage = () => {
   const [sharedQuiz, setSharedQuiz] = useState(null);
@@ -13,6 +14,7 @@ const AnimePage = () => {
       <CharacterScroller setSharedQuiz={setSharedQuiz} />
       <AudioPlayer />
       <QuizForm sharedQuiz={sharedQuiz}/>
+     
     </div>
   );
 };
