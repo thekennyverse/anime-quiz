@@ -21,6 +21,9 @@ const Score = ({questions}) => {
     setResponses(newResponses);
   }
 
+
+
+
   return (
     <div>
       {/* Render quiz and pass onSubmit to collect responses */}

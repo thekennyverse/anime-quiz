@@ -20,6 +20,7 @@ const QuizForm = ({sharedQuiz}) => {
     });
   
     const [showResult, setShowResult] = useState(false);
+    const [userScore, setUserScore] = useState(null);
   
     const handleRadioChange = (question, value) => {
       setResponses((prevResponses) => ({
@@ -27,8 +28,35 @@ const QuizForm = ({sharedQuiz}) => {
         [question]: value,
       }));
     };
+
+    const getScore = () => {
+      const quiz = sharedQuiz != null ? sharedQuiz.questions : [];
+      const userAnswers = Object.values(responses);
+      const answerKey = quiz.map((question) => getAnswer(question));
+      return calculateScore(userAnswers, answerKey, answerKey.length)
+    }
+
+    const calculateScore = (user, key, size) => {
+      let result = 0;
+      for (let i = 0; i < size; i++){
+        if (user[i] === key[i]){
+          result++;
+        }
+      }
+      const score = (result / size) * 100;
+      return score;
+    }
+
+    const getAnswer = (question) => {
+      return question.answers
+        .filter((answer) => {
+          return answer.is_correct === true
+        })
+        .map((answer) => answerOptions(answer.answer_id))[0];
+    }
   
     const handleSubmit = (e) => {
+      setUserScore(getScore());
       e.preventDefault();
       setShowResult(true); // Set to true when the form is submitted
     };
@@ -85,6 +113,8 @@ const QuizForm = ({sharedQuiz}) => {
         <button type="submit">Submit</button>
       </form>
       <div className="result" id="result"></div>
+
+      {userScore !== null ? <h1>{`Score: ${userScore}`}</h1> : null}
     </div>
   );
 };
